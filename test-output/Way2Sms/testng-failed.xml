@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Way2Sms]">
+  <test name="Send Message(failed)">
+    <parameter name="url" value="https://accounts.google.com/signin"/>
+    <parameter name="Browser" value="c"/>
+    <classes>
+      <class name="resultinExcel.Gmailvalidation">
+        <methods>
+          <include name="link"/>
+        </methods>
+      </class> <!-- resultinExcel.Gmailvalidation -->
+    </classes>
+  </test> <!-- Send Message(failed) -->
+</suite> <!-- Failed suite [Way2Sms] -->

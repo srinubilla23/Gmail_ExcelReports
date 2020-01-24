@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Way2Sms" duration-ms="17033" started-at="2019-12-03T12:00:34Z" finished-at="2019-12-03T12:00:51Z">
+    <groups>
+    </groups>
+    <test name="Send Message" duration-ms="17033" started-at="2019-12-03T12:00:34Z" finished-at="2019-12-03T12:00:51Z">
+      <class name="resultinExcel.Gmailvalidation">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:1, instance:resultinExcel.Gmailvalidation@cc285f4]" name="openBrowser" duration-ms="12759" started-at="2019-12-03T17:30:34Z" finished-at="2019-12-03T17:30:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="link(java.lang.String)[pri:2, instance:resultinExcel.Gmailvalidation@cc285f4]" name="link" duration-ms="4247" started-at="2019-12-03T17:30:47Z" finished-at="2019-12-03T17:30:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://accounts.google.com/signin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link -->
+      </class> <!-- resultinExcel.Gmailvalidation -->
+    </test> <!-- Send Message -->
+  </suite> <!-- Way2Sms -->
+</testng-results>
